@@ -23,3 +23,8 @@ class Activation:
     def relu(self, x):
         return np.maximum(0,x)
 
+    def gaussian(self, x):
+        return np.exp(-x**2)
+
+
+
